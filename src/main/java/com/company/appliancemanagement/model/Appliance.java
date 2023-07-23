@@ -45,7 +45,17 @@ public class Appliance {
 		this.status = status;
 	}
 
-	// Getters and Setters (or Lombok annotations if using Lombok)
+
+    public Appliance(Long id, String serialNumber, String brand, String model, Date dateBought, String status) {
+        this.id = id;
+        this.serialNumber = serialNumber;
+        this.brand = brand;
+        this.model = model;
+        this.dateBought = dateBought;
+        this.status = status;
+    }
+
+
 
 	public Long getId() {
 		return id;
